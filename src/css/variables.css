@@ -1,6 +1,15 @@
 :root {
     /* Font size variables */
-    --small: 12px;
-    --medium: 16px;
-    --large: 24px;
+    --small-font: 12px;
+    --medium-font: 16px;
+    --large-font: 24px;
+    /* Colors */
+    --primary-font: #d7d7d7;
+    --secondary-font: #000000;
+    --primary-font-hover: #ffffff;
+    --secondary-font-hover: #000000af;
+    --warning: #ffa500;
+    --error: #ff0000;
+    /* Shadow */
+    --small-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
   }

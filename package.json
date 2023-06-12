@@ -3,7 +3,7 @@
   "private": true,
   "version": "1.0.0",
   "description": "page for training new skills",
-  "type": "module",
+  "type": "commonjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint-check": "./node_modules/.bin/eslint .",

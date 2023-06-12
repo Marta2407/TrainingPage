@@ -12,5 +12,6 @@ module.exports = {
   rules: {
     'prefer-arrow-callback': 'warn',
     'prettier/prettier': 'error',
+    'import/no-cycle': 'warn',
   },
 };

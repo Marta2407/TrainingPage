@@ -6,10 +6,16 @@
     <title>Vite App</title>
   </head>
   <body>
-    <div class="app-wrapper">
-      <h1 class="app-wrapper__header">hello vite !!!</h1>
-      <button class="app-wrapper__button">click me</button>
-    </div>
-    <script type="module" src="/js/main.js"></script>
+    <nav class="navbar-wrapper">
+      <span class="navbar-wrapper__hide-icon">hide</span>
+      <span class="navbar-wrapper__show-icon">show</span>
+      <ul class="navbar-wrapper__list">
+        <li><a class="navbar-wrapper__list__element" href="/" >first page</a></li>
+        <li><a class="navbar-wrapper__list__element" href="/second-page" >second page</a></li>
+        <li><a class="navbar-wrapper__list__element" href="/third-page" >third page</a></li>
+      </ul>
+    </nav>
+    <div class="current-page"></div>
+    <script type="module" src="/js/index.js"></script>
   </body>
 </html>
