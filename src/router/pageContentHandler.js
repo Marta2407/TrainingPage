@@ -1,6 +1,6 @@
 import routes from './routes';
-import secondPageHandler from '../pages/secondPage/secondPageHandler';
 import firstPageHandler from '../pages/firstPage/firstPageHandler';
+import secondPageHandler from '../pages/secondPage/secondPageHandler';
 import thirdPageHandler from '../pages/thirdPage/thirdPageHandler';
 import notFoundHandler from '../pages/notFound/notFoundHandler';
 

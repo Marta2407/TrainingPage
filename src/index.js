@@ -1,6 +1,6 @@
-import '../css/globalStyles.css';
-import '../css/index.css';
-import '../css/variables.css';
+import './styles/globalStyles.css';
+import './index.css';
+import './styles/variables.css';
 import onNavigationChange from './router/onNavigationChange';
 import pageContentHandler from './router/pageContentHandler';
 
