@@ -1,8 +1,8 @@
 import pageContentHandler from './pageContentHandler';
 
 const onNavigationChange = (event) => {
-  event = event || window.event;
-  event.preventDefault();
+  const changeEvent = event || window.event;
+  changeEvent.preventDefault();
   window.history.pushState({}, '', event.target.href);
   pageContentHandler();
 };
