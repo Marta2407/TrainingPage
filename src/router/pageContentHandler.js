@@ -2,13 +2,15 @@ import routes from './routes';
 import firstPageHandler from '../pages/firstPage/firstPageHandler';
 import secondPageHandler from '../pages/secondPage/secondPageHandler';
 import thirdPageHandler from '../pages/thirdPage/thirdPageHandler';
+import fourthPageHandler from '../pages/fourthPage/fourthPageHandler';
 import notFoundHandler from '../pages/notFound/notFoundHandler';
 
 const pageContentHandler = async () => {
   const path = window.location.pathname;
   const route = routes[path] || routes[404];
   const htmlContent = await fetch(route).then((data) => data.text());
-  document.getElementsByClassName('current-page')[0].innerHTML = htmlContent;
+
+  document.querySelector('.current-page').innerHTML = htmlContent;
 
   switch (path) {
     case '/':
@@ -19,6 +21,9 @@ const pageContentHandler = async () => {
       break;
     case '/third-page':
       thirdPageHandler();
+      break;
+    case '/fourth-page':
+      fourthPageHandler();
       break;
     default:
       notFoundHandler();
