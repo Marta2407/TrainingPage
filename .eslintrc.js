@@ -18,5 +18,7 @@ module.exports = {
     'prefer-arrow-callback': 'warn',
     'prettier/prettier': 'error',
     'import/no-cycle': 'off',
+    'no-param-reassign': 'off',
+    'import/prefer-default-export': 'off',
   },
 };
